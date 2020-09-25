@@ -3,14 +3,11 @@
   "license": "ISC",
   "version": "1.0.0",
   "description": "Example automation tests in Puppeteer tool",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HieroWsi/puppeteer-test.git"
-  },
   "scripts": {
-    "test": "npm run"
+    "test": "node_modules/.bin/jest --notify --runInBand"
   },
   "devDependencies": {
+    "jest": "^26.4.2",
     "jest-puppeteer": "^4.4.0",
     "puppeteer": "^5.3.1"
   }
